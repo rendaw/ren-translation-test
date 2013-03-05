@@ -6,4 +6,4 @@
 	url = ../ren-general.git
 [submodule "ren-translation"]
 	path = ren-translation
-	url = ../ren-translation.git
+	url = git@github.com:Rendaw/ren-translation.git
