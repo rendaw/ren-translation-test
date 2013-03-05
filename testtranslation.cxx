@@ -1,7 +1,7 @@
 #include <cassert>
 #include <iostream>
 
-#include "ren-application/translation.h"
+#include "ren-translation/translation.h"
 
 void AssertEqual(String const &Got, String const &Expected)
 {

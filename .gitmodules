@@ -1,6 +1,3 @@
-[submodule "ren-script"]
-	path = ren-script
-	url = ../ren-script.git
 [submodule "ren-general"]
 	path = ren-general
 	url = ../ren-general.git
