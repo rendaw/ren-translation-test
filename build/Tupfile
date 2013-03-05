@@ -1,7 +1,7 @@
 tup.dorulesfile()
 tup.dofile '../ren-general/build/files.tup'
 tup.dofile '../ren-script/build/files.tup'
-tup.dofile '../ren-application/build/files.tup'
+tup.dofile '../ren-translation/build/files.tup'
 
 Sources = 
 {
@@ -14,7 +14,7 @@ do
 	Objects = {MainObject}
 	for Index, Object in ipairs(RenGeneralObjects) do table.insert(Objects, Object) end
 	for Index, Object in ipairs(RenScriptObjects) do table.insert(Objects, Object) end
-	for Index, Object in ipairs(RenApplicationObjects) do table.insert(Objects, Object) end
+	for Index, Object in ipairs(RenTranslationObjects) do table.insert(Objects, Object) end
 	if tup.getconfig('PLATFORM') == 'windows'
 	then
 		Rule.Executable(Objects, MainObject .. '.exe')
